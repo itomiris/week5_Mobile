@@ -16,7 +16,7 @@ void main() {
       }
       break;
     case 2:
-      print('Input your value');
+      print('Input value');
       int value = int.parse(stdin.readLineSync()!);
       if (stringIntList.contains(value)) {
         print('true');
